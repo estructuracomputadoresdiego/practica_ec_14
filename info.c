@@ -33,9 +33,8 @@ void filtro(char matriz[MAX_LINEAS][MAX_CHAR], char letra){
 	int i;
 	for (i = 0; i < 5; ++i)
 	{
-		
-		if (matriz[i][0] == letra);
-		{
+
+		if (matriz[i][0] == letra){
 			printf("%s\n", matriz[i]);
 		}
 	}
